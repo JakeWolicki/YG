@@ -7,9 +7,6 @@ from llm.ask_agent import generate_response
 
 st.set_page_config(page_title="Arizona Cardinals Data Story", layout="wide")
 
-# Load logo
-st.image("logo.png", width=120)
-
 st.title("Arizona Cardinals Data Story")
 
 # Load the data once at the start
